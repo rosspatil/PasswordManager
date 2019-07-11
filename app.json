@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "PasswordManager",
+    "slug": "pswdmng",
+    "privacy": "public",
+    "sdkVersion": "33.0.0",
+    "platforms": [
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./lock.png",
+    "splash": {
+      "image": "./lock.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "packagerOpts": {
+      "config": "metro.config.js"
+    },
+    "description": "",
+    "android": {
+      "package": "com.rosspatil.passwordmanager"
+    }
+  }
+}
