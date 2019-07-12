@@ -60,9 +60,9 @@ export default {
       }
       let self = this;
       this.app = firebase.initializeApp({
-        databaseURL: "https://snappy-photon-243611.firebaseio.com/",
-        projectId: "snappy-photon-243611",
-        apiKey: "AIzaSyCfB3HS8vKPuqWRKfia3BI6Ej19cgNTAPs"
+        databaseURL: "",
+        projectId: "",
+        apiKey: ""
       });
 
       this.app
